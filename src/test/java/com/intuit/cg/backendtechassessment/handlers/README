@@ -1,0 +1,1 @@
+Just wrote tests for 2 of the handlers (the one which have the most business logic), but obviously we should have tests for all of them.

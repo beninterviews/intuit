@@ -1,0 +1,22 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 11000
+  adminConnectors:
+  - type: http
+    port: 11001
+
+logging:
+  level: INFO
+  loggers:
+      "com.intuit": DEBUG
+  appenders:
+    - type: console
+
+authDisabled: false
+endBidFrequency: 1
+endBidFrequencyUnit: MINUTES
+
+bidStepBudgetPercent: 5
+
+dataStorePath: target/datastore.db
